@@ -21,7 +21,7 @@ $message = "こんにちは" . date("l");
       </div>
       <div class="info">
         <h1>山田太郎</h1>
-        <p><?php echo $message; ?></p>
+        <p><?= $message; ?></p>
         <ul>
           <li>
             <a href="https://dotinstall.com" target="_blank">
